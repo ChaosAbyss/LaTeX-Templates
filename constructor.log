@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.10)  23 JAN 2025 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.10)  23 JAN 2025 13:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1085,7 +1085,7 @@ File: listings.cfg 2024/05/25 1.10b listings configuration
 Package: listings 2024/05/25 1.10b (Carsten Heinz)
 ) (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/05/25 1.10b listings language file
-)) (./constructor.aux (./title_page.aux))
+)) (./constructor.aux (./title pages/title_page. main.aux))
 \openout1 = `constructor.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -1168,9 +1168,9 @@ Package hyperref Info: Link coloring ON on input line 4.
 \openout4 = `constructor.out'.
 
 \c@lstlisting=\count374
-\openout2 = `title_page.aux'.
+\openout2 = `"title pages/title_page. main.aux"'.
 
- (./title_page.tex
+ (./title pages/title_page. main.tex
 
 [1
 
@@ -1244,7 +1244,7 @@ l.13 \newpage
 
 ] (./main.tex)
 
-[2] (./constructor.aux (./title_page.aux))
+[2] (./constructor.aux (./title pages/title_page. main.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -1257,10 +1257,10 @@ Package rerunfilecheck Info: File `constructor.out' has not changed.
 (rerunfilecheck)             Checksum: 7D6D72EFCA0B86426095D00E26E24F1A;106.
  ) 
 Here is how much of TeX's memory you used:
- 27787 strings out of 473579
- 500551 string characters out of 5732263
+ 27789 strings out of 473579
+ 501033 string characters out of 5732263
  1088850 words of memory out of 5000000
- 50129 multiletter control sequences out of 15000+600000
+ 50130 multiletter control sequences out of 15000+600000
  569936 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,10n,121p,591b,917s stack positions out of 10000i,1000n,20000p,200000b,200000s

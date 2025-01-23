@@ -334,9 +334,9 @@ INPUT d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT ./constructor.aux
 INPUT ./constructor.aux
 INPUT constructor.aux
-INPUT ./title_page.aux
-INPUT ./title_page.aux
-INPUT title_page.aux
+INPUT ./title pages/title_page. main.aux
+INPUT ./title pages/title_page. main.aux
+INPUT title pages/title_page. main.aux
 OUTPUT constructor.aux
 INPUT d:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT d:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -353,12 +353,12 @@ INPUT constructor.out
 INPUT ./constructor.out
 INPUT ./constructor.out
 OUTPUT constructor.out
-INPUT ./title_page.tex
-INPUT ./title_page.tex
-OUTPUT title_page.aux
-INPUT ./title_page.tex
-INPUT ./title_page.tex
-INPUT title_page.tex
+INPUT ./title pages/title_page. main.tex
+OUTPUT title pages/title_page. main.aux
+INPUT ./title pages/title_page. main.tex
+INPUT ./title pages/title_page. main.tex
+INPUT ./title pages/title_page. main.tex
+INPUT title pages/title_page. main.tex
 INPUT c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm
 INPUT c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm2488.tfm
 INPUT c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx2488.tfm
@@ -409,9 +409,9 @@ INPUT main.tex
 INPUT c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm0800.tfm
 INPUT c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx0800.tfm
 INPUT constructor.aux
-INPUT ./title_page.aux
-INPUT ./title_page.aux
-INPUT title_page.aux
+INPUT ./title pages/title_page. main.aux
+INPUT ./title pages/title_page. main.aux
+INPUT title pages/title_page. main.aux
 INPUT ./constructor.out
 INPUT ./constructor.out
 INPUT d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb

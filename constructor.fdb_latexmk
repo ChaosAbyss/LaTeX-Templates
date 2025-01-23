@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1737628687.13643 "c:/Users/vadm5/Downloads/LaTeX/constructor.tex" "constructor.pdf" "constructor" 1737628691.8376 0
+["pdflatex"] 1737629700.03263 "c:/Users/vadm5/Downloads/LaTeX/constructor.tex" "constructor.pdf" "constructor" 1737629704.62809 0
   "c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx0800.tfm" 1726048984 3312 b8ab24c48b05dd87fb4dc8a3f4f2271a ""
   "c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1726038371 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx2074.tfm" 1726038385 3316 0992aa03d0c75498a0b6fb905d9eaab6 ""
@@ -11,11 +11,11 @@
   "c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm2074.tfm" 1726038381 3264 c29ba0a7d68c56f5a738fbe91d6d9e9d ""
   "c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm2488.tfm" 1726086760 3264 8aa2086ebecf1132c0ba370957182f17 ""
   "c:/Users/vadm5/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/lati1440.tfm" 1726038374 3528 460e6901416a816cf4afa844b5d54101 ""
-  "c:/Users/vadm5/Downloads/LaTeX/constructor.tex" 1737628591 231 c288195985229012e07ae7760d885284 ""
-  "constructor.aux" 1737628691 553 8a1b08b68f8e00a238fd537b7277e837 "pdflatex"
-  "constructor.out" 1737628691 106 7d6d72efca0b86426095d00e26e24f1a "pdflatex"
-  "constructor.tex" 1737628591 231 c288195985229012e07ae7760d885284 ""
-  "constructor.toc" 1737628691 98 945533744f92545225ce0daddb90237e "pdflatex"
+  "c:/Users/vadm5/Downloads/LaTeX/constructor.tex" 1737629693 249 73de5b71e3ab580cde5d721f5c2a6419 ""
+  "constructor.aux" 1737629704 571 4e9d994f46100f6ec438f1956707dbc2 "pdflatex"
+  "constructor.out" 1737629704 106 7d6d72efca0b86426095d00e26e24f1a "pdflatex"
+  "constructor.tex" 1737629693 249 73de5b71e3ab580cde5d721f5c2a6419 ""
+  "constructor.toc" 1737629704 98 945533744f92545225ce0daddb90237e "pdflatex"
   "d:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1725972064 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "d:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1725974545 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1725973541 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -215,13 +215,13 @@
   "d:/texlive/2024/texmf.cnf" 1725984352 713 e69b156964470283e0530f5060668171 ""
   "main.tex" 1737628402 1853 08df1a052379b50519a0ec675001cf5f ""
   "preamble.sty" 1737627962 6580 9e8c42ee0584ed6fa6eced8e0ec39f63 ""
-  "title_page.aux" 1737628691 979 51f71489913212b9a153ac9ca93e9beb "pdflatex"
-  "title_page.tex" 1737628685 445 a5599bb4d562583a9c8ca6aec1e8a5a4 ""
+  "title pages/title_page. main.aux" 1737629703 997 f7cfcd0b9f9d12f7290a14c2c00fd728 "pdflatex"
+  "title pages/title_page. main.tex" 1737628685 445 a5599bb4d562583a9c8ca6aec1e8a5a4 ""
   (generated)
   "constructor.aux"
   "constructor.log"
   "constructor.out"
   "constructor.pdf"
   "constructor.toc"
-  "title_page.aux"
+  "title pages/title_page. main.aux"
   (rewritten before read)
