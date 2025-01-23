@@ -1,0 +1,144 @@
+%%% Работа с русским языком
+\usepackage{cmap}					% поиск в PDF
+\usepackage{mathtext} 				% русские буквы в формулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+\usepackage{indentfirst}            % красная строка в первом абзаце
+\frenchspacing                      % равные пробелы между словами и предложениями
+
+%%% Свои символы и команды
+\usepackage{centernot} % центрированное зачеркивание символа
+\usepackage{stmaryrd}  % некоторые спецсимволы
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage[framemethod=tikz]{mdframed} % Allows defining custom boxed/framed environments
+\usepackage{float}
+
+\renewcommand{\epsilon}{\ensuremath{\varepsilon}}
+\renewcommand{\phi}{\ensuremath{\varphi}}
+
+\renewcommand\labelitemi{$\triangleright$}
+
+%%% Работа с картинками
+\usepackage{graphicx}    % Для вставки рисунков
+\setlength\fboxsep{3pt}  % Отступ рамки \fbox{} от рисунка
+\setlength\fboxrule{1pt} % Толщина линий рамки \fbox{}
+\usepackage{wrapfig}     % Обтекание рисунков текстом
+
+%%% Работа с таблицами
+\usepackage{array,tabularx,tabulary,booktabs} % Дополнительная работа с таблицами
+\usepackage{longtable}                        % Длинные таблицы
+\usepackage{multirow}                         % Слияние строк в таблице
+
+%%% Оформление страницы
+\usepackage{extsizes}     % Возможность сделать 14-й шрифт
+\usepackage{geometry}     % Простой способ задавать поля
+\usepackage{setspace}     % Интерлиньяж
+\usepackage{enumitem}     % Настройка окружений itemize и enumerate
+\setlist{leftmargin=25pt} % Отступы в itemize и enumerate
+
+\geometry{top=25mm}    % Поля сверху страницы
+\geometry{bottom=30mm} % Поля снизу страницы
+\geometry{left=20mm}   % Поля слева страницы
+\geometry{right=20mm}  % Поля справа страницы
+
+\setlength\parindent{0pt}        % Устанавливает длину красной строки 15pt
+\linespread{1.3}                  % Коэффициент межстрочного интервала
+\usepackage{multicol}			        % Для текста в нескольких колонках
+\usepackage{soulutf8}             % Модификаторы начертания
+
+%%% Содержаниие
+\usepackage{tocloft}
+\tocloftpagestyle{main}
+\renewcommand{\cftsecpresnum}{\hfill}
+\renewcommand{\cftsecaftersnum}{\quad}
+
+%%% Колонтитулы
+\usepackage{titleps}
+\newpagestyle{main}{
+  \setheadrule{0.4pt}
+  \sethead{Название работы}{}{\hyperlink{intro}{\;Назад к содержанию}}
+  \setfootrule{0.4pt}
+  \setfoot{}{\textit{Нижний колонтитул}}{\thepage}
+}
+\pagestyle{main}
+
+%%% Гиперссылки
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}
+\hypersetup{
+  unicode=true,            % русские буквы в раздела PDF
+  colorlinks=true,       	 % Цветные ссылки вместо ссылок в рамках
+  linkcolor=black!15!blue, % Внутренние ссылки
+  citecolor=green,         % Ссылки на библиографию
+  filecolor=magenta,       % Ссылки на файлы
+  urlcolor=NavyBlue,       % Ссылки на URL
+}
+
+\mdfdefinestyle{warning}{
+	topline=false, bottomline=false,
+	leftline=false, rightline=false,
+	nobreak,
+	singleextra={%
+		\draw(P-|O)++(-0.5em,0)node(tmp1){};
+		\draw(P-|O)++(0.5em,0)node(tmp2){};
+		\fill[black,rotate around={45:(P-|O)}](tmp1)rectangle(tmp2);
+		\node at(P-|O){\color{white}\scriptsize\bf !};
+		\draw[very thick](P-|O)++(0,-1em)--(O);%--(O-|P);
+	}
+}
+
+% Define a custom environment for warning text
+\newenvironment{warn}[1][Warning:]{ % Set the default warning to "Warning:"
+	\medskip
+	\begin{mdframed}[style=warning]
+		\noindent{\textbf{#1}}
+}{
+	\end{mdframed}
+}
+
+\mdfdefinestyle{info}{%
+	topline=false, bottomline=false,
+	leftline=false, rightline=false,
+	nobreak,
+	singleextra={%
+		\fill[black](P-|O)circle[radius=0.4em];
+		\node at(P-|O){\color{white}\scriptsize\bf i};
+		\draw[very thick](P-|O)++(0,-0.8em)--(O);%--(O-|P);
+	}
+}
+
+% Define a custom environment for information
+\newenvironment{info}[1][Info:]{ % Set the default title to "Info:"
+	\medskip
+	\begin{mdframed}[style=info]
+		\noindent{\textbf{#1}}
+}{
+	\end{mdframed}
+}
+
+\usepackage{listingsutf8} % Пакет для вывода кода
+\usepackage{xcolor}   % Для настройки цветов
+\lstset{
+	inputencoding=utf8,         % Кодировка входного файла
+  extendedchars=true,         % Поддержка расширенных символов
+  language=Pascal,               % Язык подсветки
+  basicstyle=\ttfamily\small,    % Шрифт и размер кода
+  keywordstyle=\color{blue},     % Цвет ключевых слов
+  commentstyle=\color{green!50!black}, % Цвет комментариев
+  stringstyle=\color{red},       % Цвет строк
+  numbers=left,                  % Нумерация строк
+  numberstyle=\tiny\color{gray}, % Стиль нумерации
+  stepnumber=1,                  % Шаг нумерации строк
+  numbersep=5pt,                 % Расстояние от кода до номеров строк
+  backgroundcolor=\color{gray!10}, % Цвет фона
+  frame=single,                  % Рамка вокруг кода
+  tabsize=2,                     % Размер табуляции
+  breaklines=true,               % Перенос строк
+  breakatwhitespace=true,        % Перенос только по пробелам
+  showspaces=false,              % Показывать пробелы
+  showstringspaces=false,        % Показывать пробелы внутри строк
+  captionpos=b,                  % Позиция заголовка
+  escapeinside={(*@}{@*)}        % Команды внутри кода
+}
