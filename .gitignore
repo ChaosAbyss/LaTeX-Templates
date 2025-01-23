@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Except
+!.gitignore
+!constructor.pdf
+!constructor.tex
+!main.tex
+!preamble.sty
+!title_page.tex
