@@ -7,4 +7,4 @@
 !constructor.tex
 !main.tex
 !preamble.sty
-!title pages/*.tex
+!./title_pages/*.tex
